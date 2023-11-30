@@ -1,0 +1,45 @@
+grammar org.xtext.example.Vitsika with org.eclipse.xtext.common.Terminals
+
+generate vitsika "http://www.xtext.org/example/Vitsika"
+
+Model:
+  task=AtaovyTask;
+
+AtaovyTask:
+  'Ataovy' '{'
+    actions+=Action (',' actions+=Action)*
+  '}';
+
+Action:
+	ClickAction | MoveAction | WaitAction | OpenApplicationAction | Maty | Surfer
+	| WifiCreate | Typewrite | WordTypingAuto
+;
+
+ClickAction:
+  'tsindrio' '(' key=STRING ')' ;
+  
+MoveAction:
+  'mikisaka' '('X=INT',' Y=INT')';
+
+WaitAction:
+  'miandry' '('duration=INT unit=('s' | 'm' | 'h')')';
+
+OpenApplicationAction:
+  'sokafy' ':' applications+=ID (',' applications+=ID)*;
+  
+Maty:
+  'vonoy' '('proc=STRING ')'
+;
+ Surfer :
+ 	'Tranokala' '(' url=STRING ')';
+ WifiCreate:
+ 	'manokatraWifi' '(' ssid=STRING ',' passwd=STRING')'
+ ;
+ Typewrite:
+ 	'Soraty' ':'soratra=STRING
+ ;
+ WordTypingAuto:
+ 	'manoratra_word' ':'teny=STRING
+ ;
+ 
+ 
