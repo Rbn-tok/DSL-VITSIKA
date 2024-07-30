@@ -611,7 +611,7 @@ ruleSurfer returns [EObject current=null]
 	leaveRule();
 }:
 	(
-		otherlv_0='Tranokala'
+		otherlv_0='tranokala'
 		{
 			newLeafNode(otherlv_0, grammarAccess.getSurferAccess().getTranokalaKeyword_0());
 		}
@@ -731,7 +731,7 @@ ruleTypewrite returns [EObject current=null]
 	leaveRule();
 }:
 	(
-		otherlv_0='Soraty'
+		otherlv_0='soraty'
 		{
 			newLeafNode(otherlv_0, grammarAccess.getTypewriteAccess().getSoratyKeyword_0());
 		}

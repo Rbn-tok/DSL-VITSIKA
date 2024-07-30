@@ -348,13 +348,13 @@ public class VitsikaGrammarAccess extends AbstractElementFinder.AbstractGrammarE
 		private final Keyword cRightParenthesisKeyword_3 = (Keyword)cGroup.eContents().get(3);
 		
 		//Surfer :
-		//    'Tranokala' '(' url=STRING ')';
+		//    'tranokala' '(' url=STRING ')';
 		@Override public ParserRule getRule() { return rule; }
 		
-		//'Tranokala' '(' url=STRING ')'
+		//'tranokala' '(' url=STRING ')'
 		public Group getGroup() { return cGroup; }
 		
-		//'Tranokala'
+		//'tranokala'
 		public Keyword getTranokalaKeyword_0() { return cTranokalaKeyword_0; }
 		
 		//'('
@@ -422,14 +422,14 @@ public class VitsikaGrammarAccess extends AbstractElementFinder.AbstractGrammarE
 		private final RuleCall cSoratraSTRINGTerminalRuleCall_2_0 = (RuleCall)cSoratraAssignment_2.eContents().get(0);
 		
 		//Typewrite:
-		//    'Soraty' ':'soratra=STRING
+		//    'soraty' ':'soratra=STRING
 		//;
 		@Override public ParserRule getRule() { return rule; }
 		
-		//'Soraty' ':'soratra=STRING
+		//'soraty' ':'soratra=STRING
 		public Group getGroup() { return cGroup; }
 		
-		//'Soraty'
+		//'soraty'
 		public Keyword getSoratyKeyword_0() { return cSoratyKeyword_0; }
 		
 		//':'
@@ -620,7 +620,7 @@ public class VitsikaGrammarAccess extends AbstractElementFinder.AbstractGrammarE
 	}
 	
 	//Surfer :
-	//    'Tranokala' '(' url=STRING ')';
+	//    'tranokala' '(' url=STRING ')';
 	public SurferElements getSurferAccess() {
 		return pSurfer;
 	}
@@ -641,7 +641,7 @@ public class VitsikaGrammarAccess extends AbstractElementFinder.AbstractGrammarE
 	}
 	
 	//Typewrite:
-	//    'Soraty' ':'soratra=STRING
+	//    'soraty' ':'soratra=STRING
 	//;
 	public TypewriteElements getTypewriteAccess() {
 		return pTypewrite;

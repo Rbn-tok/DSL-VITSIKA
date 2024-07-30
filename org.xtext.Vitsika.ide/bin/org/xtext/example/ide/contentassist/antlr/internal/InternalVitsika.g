@@ -1322,7 +1322,7 @@ rule__Surfer__Group__0__Impl
 :
 (
 	{ before(grammarAccess.getSurferAccess().getTranokalaKeyword_0()); }
-	'Tranokala'
+	'tranokala'
 	{ after(grammarAccess.getSurferAccess().getTranokalaKeyword_0()); }
 )
 ;
@@ -1592,7 +1592,7 @@ rule__Typewrite__Group__0__Impl
 :
 (
 	{ before(grammarAccess.getTypewriteAccess().getSoratyKeyword_0()); }
-	'Soraty'
+	'soraty'
 	{ after(grammarAccess.getTypewriteAccess().getSoratyKeyword_0()); }
 )
 ;

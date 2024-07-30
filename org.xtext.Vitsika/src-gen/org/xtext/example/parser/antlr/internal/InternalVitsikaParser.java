@@ -21,7 +21,7 @@ import java.util.ArrayList;
 @SuppressWarnings("all")
 public class InternalVitsikaParser extends AbstractInternalAntlrParser {
     public static final String[] tokenNames = new String[] {
-        "<invalid>", "<EOR>", "<DOWN>", "<UP>", "RULE_STRING", "RULE_INT", "RULE_ID", "RULE_ML_COMMENT", "RULE_SL_COMMENT", "RULE_WS", "RULE_ANY_OTHER", "'Ataovy'", "'{'", "','", "'}'", "'tsindrio'", "'('", "')'", "'mikisaka'", "'miandry'", "'s'", "'m'", "'h'", "'sokafy'", "':'", "'vonoy'", "'Tranokala'", "'manokatraWifi'", "'Soraty'", "'manoratra_word'"
+        "<invalid>", "<EOR>", "<DOWN>", "<UP>", "RULE_STRING", "RULE_INT", "RULE_ID", "RULE_ML_COMMENT", "RULE_SL_COMMENT", "RULE_WS", "RULE_ANY_OTHER", "'Ataovy'", "'{'", "','", "'}'", "'tsindrio'", "'('", "')'", "'mikisaka'", "'miandry'", "'s'", "'m'", "'h'", "'sokafy'", "':'", "'vonoy'", "'tranokala'", "'manokatraWifi'", "'soraty'", "'manoratra_word'"
     };
     public static final int RULE_STRING=4;
     public static final int RULE_SL_COMMENT=8;
@@ -1480,7 +1480,7 @@ public class InternalVitsikaParser extends AbstractInternalAntlrParser {
 
 
     // $ANTLR start "ruleSurfer"
-    // InternalVitsika.g:606:1: ruleSurfer returns [EObject current=null] : (otherlv_0= 'Tranokala' otherlv_1= '(' ( (lv_url_2_0= RULE_STRING ) ) otherlv_3= ')' ) ;
+    // InternalVitsika.g:606:1: ruleSurfer returns [EObject current=null] : (otherlv_0= 'tranokala' otherlv_1= '(' ( (lv_url_2_0= RULE_STRING ) ) otherlv_3= ')' ) ;
     public final EObject ruleSurfer() throws RecognitionException {
         EObject current = null;
 
@@ -1493,11 +1493,11 @@ public class InternalVitsikaParser extends AbstractInternalAntlrParser {
         	enterRule();
 
         try {
-            // InternalVitsika.g:612:2: ( (otherlv_0= 'Tranokala' otherlv_1= '(' ( (lv_url_2_0= RULE_STRING ) ) otherlv_3= ')' ) )
-            // InternalVitsika.g:613:2: (otherlv_0= 'Tranokala' otherlv_1= '(' ( (lv_url_2_0= RULE_STRING ) ) otherlv_3= ')' )
+            // InternalVitsika.g:612:2: ( (otherlv_0= 'tranokala' otherlv_1= '(' ( (lv_url_2_0= RULE_STRING ) ) otherlv_3= ')' ) )
+            // InternalVitsika.g:613:2: (otherlv_0= 'tranokala' otherlv_1= '(' ( (lv_url_2_0= RULE_STRING ) ) otherlv_3= ')' )
             {
-            // InternalVitsika.g:613:2: (otherlv_0= 'Tranokala' otherlv_1= '(' ( (lv_url_2_0= RULE_STRING ) ) otherlv_3= ')' )
-            // InternalVitsika.g:614:3: otherlv_0= 'Tranokala' otherlv_1= '(' ( (lv_url_2_0= RULE_STRING ) ) otherlv_3= ')'
+            // InternalVitsika.g:613:2: (otherlv_0= 'tranokala' otherlv_1= '(' ( (lv_url_2_0= RULE_STRING ) ) otherlv_3= ')' )
+            // InternalVitsika.g:614:3: otherlv_0= 'tranokala' otherlv_1= '(' ( (lv_url_2_0= RULE_STRING ) ) otherlv_3= ')'
             {
             otherlv_0=(Token)match(input,26,FOLLOW_6); 
 
@@ -1744,7 +1744,7 @@ public class InternalVitsikaParser extends AbstractInternalAntlrParser {
 
 
     // $ANTLR start "ruleTypewrite"
-    // InternalVitsika.g:726:1: ruleTypewrite returns [EObject current=null] : (otherlv_0= 'Soraty' otherlv_1= ':' ( (lv_soratra_2_0= RULE_STRING ) ) ) ;
+    // InternalVitsika.g:726:1: ruleTypewrite returns [EObject current=null] : (otherlv_0= 'soraty' otherlv_1= ':' ( (lv_soratra_2_0= RULE_STRING ) ) ) ;
     public final EObject ruleTypewrite() throws RecognitionException {
         EObject current = null;
 
@@ -1756,11 +1756,11 @@ public class InternalVitsikaParser extends AbstractInternalAntlrParser {
         	enterRule();
 
         try {
-            // InternalVitsika.g:732:2: ( (otherlv_0= 'Soraty' otherlv_1= ':' ( (lv_soratra_2_0= RULE_STRING ) ) ) )
-            // InternalVitsika.g:733:2: (otherlv_0= 'Soraty' otherlv_1= ':' ( (lv_soratra_2_0= RULE_STRING ) ) )
+            // InternalVitsika.g:732:2: ( (otherlv_0= 'soraty' otherlv_1= ':' ( (lv_soratra_2_0= RULE_STRING ) ) ) )
+            // InternalVitsika.g:733:2: (otherlv_0= 'soraty' otherlv_1= ':' ( (lv_soratra_2_0= RULE_STRING ) ) )
             {
-            // InternalVitsika.g:733:2: (otherlv_0= 'Soraty' otherlv_1= ':' ( (lv_soratra_2_0= RULE_STRING ) ) )
-            // InternalVitsika.g:734:3: otherlv_0= 'Soraty' otherlv_1= ':' ( (lv_soratra_2_0= RULE_STRING ) )
+            // InternalVitsika.g:733:2: (otherlv_0= 'soraty' otherlv_1= ':' ( (lv_soratra_2_0= RULE_STRING ) ) )
+            // InternalVitsika.g:734:3: otherlv_0= 'soraty' otherlv_1= ':' ( (lv_soratra_2_0= RULE_STRING ) )
             {
             otherlv_0=(Token)match(input,28,FOLLOW_12); 
 

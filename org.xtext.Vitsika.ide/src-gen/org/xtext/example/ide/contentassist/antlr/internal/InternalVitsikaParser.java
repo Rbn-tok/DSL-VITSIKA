@@ -22,7 +22,7 @@ import java.util.ArrayList;
 @SuppressWarnings("all")
 public class InternalVitsikaParser extends AbstractInternalContentAssistParser {
     public static final String[] tokenNames = new String[] {
-        "<invalid>", "<EOR>", "<DOWN>", "<UP>", "RULE_STRING", "RULE_INT", "RULE_ID", "RULE_ML_COMMENT", "RULE_SL_COMMENT", "RULE_WS", "RULE_ANY_OTHER", "'s'", "'m'", "'h'", "'Ataovy'", "'{'", "'}'", "','", "'tsindrio'", "'('", "')'", "'mikisaka'", "'miandry'", "'sokafy'", "':'", "'vonoy'", "'Tranokala'", "'manokatraWifi'", "'Soraty'", "'manoratra_word'"
+        "<invalid>", "<EOR>", "<DOWN>", "<UP>", "RULE_STRING", "RULE_INT", "RULE_ID", "RULE_ML_COMMENT", "RULE_SL_COMMENT", "RULE_WS", "RULE_ANY_OTHER", "'s'", "'m'", "'h'", "'Ataovy'", "'{'", "'}'", "','", "'tsindrio'", "'('", "')'", "'mikisaka'", "'miandry'", "'sokafy'", "':'", "'vonoy'", "'tranokala'", "'manokatraWifi'", "'soraty'", "'manoratra_word'"
     };
     public static final int RULE_STRING=4;
     public static final int RULE_SL_COMMENT=8;
@@ -3918,17 +3918,17 @@ public class InternalVitsikaParser extends AbstractInternalContentAssistParser {
 
 
     // $ANTLR start "rule__Surfer__Group__0__Impl"
-    // InternalVitsika.g:1318:1: rule__Surfer__Group__0__Impl : ( 'Tranokala' ) ;
+    // InternalVitsika.g:1318:1: rule__Surfer__Group__0__Impl : ( 'tranokala' ) ;
     public final void rule__Surfer__Group__0__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalVitsika.g:1322:1: ( ( 'Tranokala' ) )
-            // InternalVitsika.g:1323:1: ( 'Tranokala' )
+            // InternalVitsika.g:1322:1: ( ( 'tranokala' ) )
+            // InternalVitsika.g:1323:1: ( 'tranokala' )
             {
-            // InternalVitsika.g:1323:1: ( 'Tranokala' )
-            // InternalVitsika.g:1324:2: 'Tranokala'
+            // InternalVitsika.g:1323:1: ( 'tranokala' )
+            // InternalVitsika.g:1324:2: 'tranokala'
             {
              before(grammarAccess.getSurferAccess().getTranokalaKeyword_0()); 
             match(input,26,FOLLOW_2); 
@@ -4688,17 +4688,17 @@ public class InternalVitsikaParser extends AbstractInternalContentAssistParser {
 
 
     // $ANTLR start "rule__Typewrite__Group__0__Impl"
-    // InternalVitsika.g:1588:1: rule__Typewrite__Group__0__Impl : ( 'Soraty' ) ;
+    // InternalVitsika.g:1588:1: rule__Typewrite__Group__0__Impl : ( 'soraty' ) ;
     public final void rule__Typewrite__Group__0__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalVitsika.g:1592:1: ( ( 'Soraty' ) )
-            // InternalVitsika.g:1593:1: ( 'Soraty' )
+            // InternalVitsika.g:1592:1: ( ( 'soraty' ) )
+            // InternalVitsika.g:1593:1: ( 'soraty' )
             {
-            // InternalVitsika.g:1593:1: ( 'Soraty' )
-            // InternalVitsika.g:1594:2: 'Soraty'
+            // InternalVitsika.g:1593:1: ( 'soraty' )
+            // InternalVitsika.g:1594:2: 'soraty'
             {
              before(grammarAccess.getTypewriteAccess().getSoratyKeyword_0()); 
             match(input,28,FOLLOW_2); 
